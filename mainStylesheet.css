@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contentContainer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1550px;
+    border: 96px solid #1B0E0F;
+    margin-top: 64px;
+    margin-bottom: 300px;
+}
+
+#headerSection {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#blogTitle {
+    padding-top: 95px;
+    padding-bottom: 12px;
+    color: #002AFE;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#mainHeader {
+    color: #181D27;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+#subHeader {
+    font-size: 20px;
+    color: #535862;
+    font-weight: 400;
+}
+
+#designSection,
+#productSection,
+#customerSection {
+    width: 1346px;
+    padding: 56px 66px;
+    margin: 0 auto;
+}
+
+#customerSection {
+    margin-bottom: 96px;
+}
+
+#designImage, #productImage, #customerImage {
+    vertical-align: top;
+    width: 550px;
+    height: 400px;
+    margin-right: 70px;
+}
+
+#designContent, #productContent, #customerContent {
+    width: 100%;
+    vertical-align: top;
+    max-width: 590px;
+    display: inline-block;
+    text-align: left;
+    padding: 93px 0px;
+}
+
+#categoryTitle {
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+#collaborationArticleTitle, #frameworkArticleTitle, #podcastArticleTitle {
+    vertical-align: top;
+    display: inline-block;
+    color: #181D27;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+#collaborationArrow, #frameworkArrow, #podcastArrow {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 16px;
+    vertical-align: top;
+}
+
+#collaborationDescription, #frameworkDescription, #podcastDescription {
+    color: #535862;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+#authorAvatar, #authorAvatarSecond, #authorAvatarThird {
+    vertical-align: top;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+#authorDetails, #authorDetailsSecond, #authorDetailsThird {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#authorName, #authorNameSecond, #authorNameThird {
+    font-size: 14px;
+    color: #181D27;
+    font-weight: 600;
+}
+
+#authorDate, #authorDateSecond, #authorDateThird { 
+    color: #535862;
+    font-size: 14px;
+}
